@@ -68,5 +68,11 @@ html, body, div {
     margin: 20px;
 
     /* Phase 2 */
-    /* Your code here 
+    /* Your code here */
+    display: inline-grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(3, 33%);
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
 }
