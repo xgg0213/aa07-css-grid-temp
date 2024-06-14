@@ -2,7 +2,7 @@ html, body, div {
     /* PAGE SETTINGS - DO NOT EDIT */
     font-family: sans-serif;
     background-color: antiquewhite;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* ====== */
@@ -18,11 +18,12 @@ html, body, div {
     grid-template-rows: auto;
     grid-template-areas: 
     "header header header"
-    "main . sidebar"
+    "main divider sidebar"
     "footer footer footer";
 
     /* Bonus Phase */
     /* Your code here */
+    row-gap: 15px;
 }
 .item-1 {
     background-color: #87a7b3; /* steel blue */
@@ -59,6 +60,8 @@ html, body, div {
 
     /* Bonus Phase */
     /* Your code here */
+    grid-area: divider;
+    width: 100px;
 }
 
 /* ====== */
